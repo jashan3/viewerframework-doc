@@ -15,7 +15,7 @@ const initPdfParms = {
     url: "<pdf url>",
     cMapUrl: "<cmap 폴더 url>/",
     standardFontDataUrl: "<fontSet 폴더 url>/",
-    wasmUrl: "<wasmUrl 폴더 url>",
+    wasmUrl: "<wasmUrl 폴더 url>/",
     options: {
         '<기존 암호화에 필요한 데이터>'
     }
