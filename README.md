@@ -16,6 +16,7 @@ const initPdfParms = {
     cMapUrl: "<cmap 폴더 url>/",
     standardFontDataUrl: "<fontSet 폴더 url>/",
     wasmUrl: "<wasmUrl 폴더 url>/",
+    httpHeaders: { <...http헤더> }
     options: {
         '<기존 암호화에 필요한 데이터>'
     }
@@ -404,10 +405,11 @@ annotation 저장
 | --- | --- | --- |
 | `string \| undefined` | `viewerId` | PDF 뷰어를 렌더링할 DOM 요소의 ID |
 | `'single' \| 'dual' \| 'firstdual' \| 'scroll' \| string \| undefined` | `pageMode` | 페이지 표시 모드 (선택적 속성) |
-| `number \| undefined` | `pageNum` | 초기 로딩할 페이지 번호(선택적 속성) |
+| `number \| undefined` | `pageNum` | 초기 로딩할 페이지 번호 (선택적 속성) |
 | `string \| undefined` | `cMapUrl` | 문자 맵(CMap) 리소스 경로 (PDF.js 용) |
 | `string \| undefined` | `standardFontDataUrl` | 기본 폰트 데이터 리소스 경로 (PDF.js 용) |
 | `string \| undefined` | `wasmUrl` | WebAssembly 모듈 경로 (PDF.js 용) |
+| `object \| undefined` | `httpHeaders` | httpHeaders 객체 (선택적 속성) |
 
 ---
 
