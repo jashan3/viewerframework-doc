@@ -5,8 +5,16 @@
 - <a href="/dist/pdf/1.0.0/" download>viewerjs.a26267dd1a83067dd1a83067c6dd1.js</a>
 
 
+### 2. 폴더구조 세팅
+```
+루트/
+├── 📂 cmaps
+├── 📂 standard_fonts
+└── 📂 wasm
+└── viewerjs.js
+```
 
-### 2. pdf 프레임워크 시작 파라미터 세팅
+### 3. pdf 프레임워크 시작 파라미터 세팅
 
 - window에 ViewerJS 전역변수로 선언된 상태.
 
@@ -23,15 +31,6 @@ const initPdfParms = {
     }
 }
 await pdfCore.init(initPdfParms);
-```
-
-### 3. 폴더구조 세팅
-```
-루트/
-├── 📂 cmaps
-├── 📂 standard_fonts
-└── 📂 wasm
-└── viewerjs.js
 ```
 
 <br>
