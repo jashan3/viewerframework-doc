@@ -2,7 +2,8 @@
 
 
 ### 1. 라이브러리 다운로드
-- viewerjs.[contenthash].js
+- <a href="/dist/pdf/1.0.0/" download>viewerjs.a26267dd1a83067dd1a83067c6dd1.js</a>
+
 
 
 ### 2. pdf 프레임워크 시작 파라미터 세팅
