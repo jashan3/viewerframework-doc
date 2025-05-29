@@ -2,7 +2,7 @@
 
 
 ### 1. 라이브러리 다운로드
-- <a href="/dist/pdf/1.0.0/" download>viewerjs.a26267dd1a83067dd1a83067c6dd1.js</a>
+- <a href="/dist/pdf/1.0.0/" download>viewerjs.0c6a5af06f522bf4dac1.js</a>
 
 
 ### 2. 폴더구조 세팅
